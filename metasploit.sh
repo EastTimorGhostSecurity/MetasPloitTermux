@@ -68,7 +68,6 @@ init_postgresql() {
 # Function to install required packages
 install_dependencies() {
     echo -e "${GREEN}[1/6] Installing Dependencies...${NC}"
-    run_cmd "termux-change-repo" "Configuring Termux repositories"
     run_cmd "pkg update -y" "Updating packages"
     run_cmd "pkg upgrade -y" "Upgrading packages"
     run_cmd "pkg install -y ruby git wget curl nmap openssl postgresql libffi libgmp libxml2 libxslt ncurses-utils sqlite binutils binutils-gold clang make" "Installing required packages"
