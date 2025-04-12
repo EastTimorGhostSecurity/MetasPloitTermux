@@ -6,8 +6,7 @@
 
 ---
 
-![My Photo](./termux_metasploit.png)
-
+    termux_metasploit.png
 ---
 
 ### Install Metasploit on Termux
