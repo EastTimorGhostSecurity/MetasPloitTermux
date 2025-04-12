@@ -13,9 +13,9 @@
 ### Install Metasploit on Termux
 
 ```bash
-pkg install wget
+pkg install git -y
 
-wget https://github.com/EastTimorGhostSecurity/MetasPloitTermux/raw/master/metasploit.sh
+git clone https://github.com/EastTimorGhostSecurity/MetasPloitTermux.git
 
 cd MetasPloitTermux
 
