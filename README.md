@@ -23,7 +23,11 @@ chmod +x metasploit.sh
 
 ./metasploit.sh
 ```
+### Launch metasploit
 
+```bash
+msfconsole
+```
 ---
 
 ### Author
