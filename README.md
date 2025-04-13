@@ -15,6 +15,8 @@
 ```bash
 pkg install git -y
 
+pkg install shc -y
+
 git clone https://github.com/EastTimorGhostSecurity/MetasPloitTermux.git
 
 cd MetasPloitTermux
