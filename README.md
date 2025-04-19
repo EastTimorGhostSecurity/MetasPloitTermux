@@ -17,6 +17,8 @@ pkg install git -y
 
 pkg install shc -y
 
+pkg install ruby libsqlite
+
 git clone https://github.com/EastTimorGhostSecurity/MetasPloitTermux.git
 
 cd MetasPloitTermux
